@@ -1,0 +1,52 @@
+/*
+applying styles
+element selector
+*/
+h2 {
+    color:red;
+}
+h3 {
+    color:red;
+}
+p {
+    color:red;
+}
+/*
+grouping selector
+*/
+h1,h2,h3,p {
+    color:blue;
+}
+/* id selector
+*/
+#first {
+     color:green;
+}
+/* class selrctor
+*/
+.second {
+    color:purple;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    border:5px dotted black;
+    padding:15px;
+}
+/* universal selector */
+* {
+    text-align:center;
+}
+/* descendat selector */
+div p {
+    color:rgb(166, 255, 0);
+}
+/* background color */
+body {
+   /* background-color:rgb(24, 198, 211);
+    background-image: url("../images/a2.jpg");
+    background-repeat: no-repeat;
+    background-position: right; */
+    background: rgb(51, 104, 153)
+     url("../images/a2.jpg")
+     repeat;
+}
