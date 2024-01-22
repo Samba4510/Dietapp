@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="./login.js"></script>
+</head>
+<body>
+    <center>
+        <h2>DIET login</h2>
+        <form name="loginform" action="./success.html" onsubmit="return validationform()">
+            <lable>Enter Username:</lable>
+            <input type="text" id="username" name="username"><br><br>
+            <lable>Enter password:</lable>
+            <input type="password" id="password" name="password" minlength="8"><br><br>
+            <input type="submit" value="login">
+        </form>
+    </center>
+</body>
+</html>
